@@ -67,7 +67,7 @@ public class CategoryController {
             modelAndView.addObject("category", category.get());
             return modelAndView;
         } else {
-            return new ModelAndView("/error-404");
+            return new ModelAndView("/error_404");
         }
     }
 
@@ -89,7 +89,7 @@ public class CategoryController {
             modelAndView.addObject("products", products);
             return modelAndView;
         } else {
-            return new ModelAndView("/error-404");
+            return new ModelAndView("/error_404");
         }
     }
 
@@ -103,7 +103,7 @@ public class CategoryController {
             iCategoryService.save(category);
             return "redirect:/api/categories";
         } else {
-            return "/error-404";
+            return "/error_404";
         }
     }
 }

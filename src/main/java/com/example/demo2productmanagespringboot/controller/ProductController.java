@@ -4,7 +4,6 @@ import com.example.demo2productmanagespringboot.model.Cart;
 import com.example.demo2productmanagespringboot.model.Category;
 import com.example.demo2productmanagespringboot.model.Product;
 import com.example.demo2productmanagespringboot.model.ProductForm;
-import com.example.demo2productmanagespringboot.repository.IProductRepository;
 import com.example.demo2productmanagespringboot.service.ICategoryService;
 import com.example.demo2productmanagespringboot.service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
